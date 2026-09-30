@@ -5,3 +5,10 @@ print("Available Books:")
 
 for book in books:
     print(book)
+
+username = input("Enter username: ")
+
+if username.strip():
+    print("Login successful")
+else:
+    print("Login failed")
